@@ -40,7 +40,8 @@ header nav{
 }
 
 .main {
-  margin: 70px auto;
+  top: 70px;
+  margin: 0px auto;
   background-image: url("../images/img-mission-background.jpg");
   display: flex;
   height:700px;
@@ -59,8 +60,12 @@ header nav{
   width: 1200px;
 }
 
+.teas {
+  padding-top: 50px;
+}
+
 .content {
-  margin: auto;
+  margin: 0px auto;
   height: auto;
   width: 1000px;
   display: flex;
@@ -76,7 +81,7 @@ header nav{
 }
 
 .locations {
-  margin: auto;
+  margin: 70px auto;
   padding: 50px 0px;
   background-image: url("../images/img-locations-background.jpg");
   background-size: cover;
@@ -99,9 +104,9 @@ header nav{
 
 footer {
   height: 200px;
-  margin: 0px 20px;
 }
 
 .copyright {
   text-align: left;
+  margin-left: 20px;
 }
